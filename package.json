@@ -1,0 +1,11 @@
+{
+  "name": "insomnia-plugin-token",
+  "version": "1.0.0",
+  "main": "plugin.js",
+  "insomnia": {
+    "name": "token",
+    "description": "Automatic add authorization header"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
