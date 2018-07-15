@@ -26,7 +26,6 @@ function get_token(authenticate_url, authenticate_payload) {
 	res.on('end', () => {
 	    const body = JSON.parse(buffer);
 	    const access_token = body.access_token;
-	    alert('TOKEN:' + access_token);
 	    tokens[authenticate_url] = access_token;
 	    save();
 	});
